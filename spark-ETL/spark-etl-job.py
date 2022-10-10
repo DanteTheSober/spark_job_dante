@@ -14,9 +14,8 @@ def main():
     """
 
     # start Spark application and get Spark session
-    print(os.getcwd() + "\\jars\\postgresql-42.4.0.jar")
     spark = (
-        SparkSession.builder.config("spark.jars", os.getcwd() + "\\jars\\postgresql-42.4.0.jar")
+        SparkSession.builder.config("spark.jars", os.getcwd() + "/jars/postgresql-42.4.0.jar")
             .master("local")
             .appName("PySpark_Postgres")
             .getOrCreate()
