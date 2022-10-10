@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
+      - POSTGRES_DB=sensor_data
+    ports:
+      - "5432:5432"
