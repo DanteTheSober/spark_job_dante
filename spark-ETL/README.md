@@ -14,8 +14,8 @@ pip install -r requirements.txt
 ### open 2 terminal with this virtualenv
 
 ###terminal 1
-if you use Flask -> cd upload-app -> python app.py -> access http://127.0.0.1:5000 
-if you use fastAPI -> cd fastAPI -> uvicorn api:app --reload -> http://127.0.0.1:8000/docs
+if you use Flask -> cd upload-app -> python app.py -> access http://127.0.0.1:5000 -> upload the data.csv file in upload-app
+if you use fastAPI -> cd fastAPI -> uvicorn api:app --reload -> http://127.0.0.1:8000/docs -> upload the data.csv file in upload-app
 
 ###terminal 2
 
